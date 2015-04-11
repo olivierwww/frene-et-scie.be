@@ -284,7 +284,7 @@ a:focus {
     padding-right: 45px;
 }
 
-#agenda {
+.agenda {
     background: url(../img/passion-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;

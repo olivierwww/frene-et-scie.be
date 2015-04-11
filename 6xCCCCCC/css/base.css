@@ -284,8 +284,8 @@ a:focus {
     padding-right: 45px;
 }
 
-#download {
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+#agenda {
+    background: url(../img/passion-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -293,17 +293,17 @@ a:focus {
     -o-background-size: cover;
 }
 
-.download-section {
+.agenda-section {
     width: 100%;
     color: #fff;
     padding:100px 0;
 }
 
-#download .overlay {
+#agenda .overlay {
     background-color: rgba(38, 50, 56, 0.6);
 }
 
-#download.content-section  {
+#agenda.content-section  {
     padding: 0;
 }
 
@@ -317,7 +317,7 @@ a:focus {
         padding: 150px 0;
     }
 
-    .download-section {
+    .agenda-section {
         padding: 200px 0;
     }
 

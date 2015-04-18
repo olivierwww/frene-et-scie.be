@@ -5,7 +5,8 @@
                 <i class="fa fa-lg fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#intro">
-                <span class="light">Frêne</span> & Scie
+                <!-- <span class="light">Frêne</span> & Scie -->
+                {{site.data.settings.title}}
             </a>
         </div>
 
@@ -16,18 +17,11 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li> -->
+                {% for item in site.data.settings.menu %}
                 <li>
-                    <a class="page-scroll" href="#about">A Propos</a>
+                    <a class="page-scroll" href="{{item.url}}">{{item.name}}</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#service">Produits</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#agenda">Actualité</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

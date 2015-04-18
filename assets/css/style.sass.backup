@@ -1,0 +1,15 @@
+---
+---
+
+//------------------------------------------------
+// Set some colors as sass variables
+
+//$normal-blue: {{ site.data.layout.normal-blue }}
+//$light-blue: {{ site.data.layout.light-blue }}
+//$dark-blue: {{ site.data.layout.dark-blue }}
+//$white: {{ site.data.layout.white }}
+
+//------------------------------------------------
+// Imports sass files
+
+@import '3-sections/-sections-dir'

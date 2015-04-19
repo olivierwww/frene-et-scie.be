@@ -4,10 +4,17 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h1 class="brand-heading frame">{{site.data.settings.title}}</h1>
-                    <p class="intro-text frame">{{site.data.settings.description}}</p>
-                    <p class="nav"><a href="#about" class=" btn btn-down page-scroll"><i class="fa fa-angle-double-down animated"></i></a></p>
+                    <!-- <p class="intro-text frame">{{site.data.settings.description}}</p> -->
+                    <p class="nav"><a href="#about" class="btn btn-down page-scroll"><i class="fa fa-angle-double-down animated"></i></a></p>
                 </div>
-            </div>
+            </div>  
+            <div class="row">
+                {% for service in site.data.settings.services %}
+                <div class="col-md-6 col-lg-3">
+                    <h2 class="intro-service-heading frame"><a href="{{service.url}}">{{service.name}}</a></h2>
+                </div>
+                {% endfor %}
+            </div>  
         </div>
-    </div>
+    </div>>
 </header>

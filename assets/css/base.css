@@ -329,6 +329,10 @@ body {
     border-radius: 3%;
 }
 
+.service-item  {
+    padding-top: 75px;
+}
+
 @media(min-width:992px) and (max-width: 1199px){
     .service-item {
         height: 375px;

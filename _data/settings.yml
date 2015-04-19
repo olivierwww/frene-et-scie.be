@@ -50,6 +50,12 @@ blurb: >
 #-------------------------------
 # Service Section
 
+services:
+- {name: Yourtes Kirghizes, id: service1, url: '#service1', description: 'Lorem ipsum dolor sit amet, et assum efficiantur his, tota postea moderatius ei eos. Eam quis percipitur sadipscing cu. Sale liberavisse ius te, laudem disputando has no. Eos platonem assentior ut, ea iudicabit gubergren evertitur ius, eum nobis definitionem ea. Vix eu quot quaerendum efficiantur.'}
+- {name: Cintrage Massif, id: service2, url: '#service2', description: 'Et inermis copiosae cum. Illum delectus voluptaria his ne. Habeo saepe tantas sed no. Ei duo solum pertinax. Ludus aliquid honestatis et pri. Est habeo singulis hendrerit cu, graeco scriptorem theophrastus est ne. Mea audire interpretaris an.'}
+- {name: Éco-Menuiserie, id: service3, url: '#service3', description: 'Odio denique conclusionemque eum et. Pro quodsi expetendis adipiscing ad, vim posse nominati id. Et laboramus assentior quo. Idque dicant verear pri te, vim ad simul dolores, iusto constituto per eu.'}
+- {name: Espaces Extérieurs, id: service4, url: '#service4', description: 'Mei menandri definiebas ad, aeque omnes posidonium ut ius, ut modo justo intellegebat mel. Hinc lucilius detraxit eos at. Hinc inimicus volutpat at his. Ius ornatus convenire honestatis at, ei wisi ceteros pro. Timeam aliquam mea no, ad autem semper vis. An invenire voluptaria eam.'}
+
 #-------------------------------
 # Work Section
 

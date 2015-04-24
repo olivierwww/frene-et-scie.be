@@ -2,10 +2,10 @@
 /*  Header Section CSS          */
 
 .intro
-    display: table
+    /* OCL Removed    */
+    /* display: table */
     width: 100%
-    height: auto
-    padding: 100px 0
+    height: 100%
     text-align: center
     color: #fff
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll
@@ -14,26 +14,56 @@
     -moz-background-size: cover
     background-size: cover
     -o-background-size: cover
+    position: relative
+    
 
-.intro .intro-body
-    display: table-cell
-    vertical-align: middle
+.intro .intro-title
+    height: 100px
+    width: 50%
+    /* background: #34495e */
+    position: absolute
+    margin: -50px 0 0 -25%
+    left: 50%
+    top: 45%
+
+.intro .intro-title p
+    display: none
+
+.intro .intro-service
+    height: 100px
+    width: 90%
+    /* background: #e74c3c */
+    position: absolute
+    margin: 0 0 0 -45%
+    left: 50%
+    bottom: 15%
+
+.intro .intro-service a
+    color: $intro-service-color
+
+.intro .intro-service a:hover
+    text-decoration: none
+    color: $hover-color
+
+.intro .intro-title .brand-heading 
+    font-size: 30px
 
 
-.intro .intro-body .brand-heading 
-    font-size: 40px
+.intro .intro-service .service-heading 
+    font-size: 15px
 
-
-.intro .intro-body .intro-text 
-    font-size: 18px
-
-
-@media(min-width:767px) 
+@media(min-width:800px)
     .intro 
         height: 100%
         padding: 0
 
-    .intro .intro-body .brand-heading 
+    .intro .intro-title p
+        display: inline
+
+    .intro .intro-service
+        bottom: 5%
+
+    .intro .intro-title .brand-heading 
         font-size: 60px
         //transform: rotate(-2deg)
         //-ms-transform: rotate(-2deg)
@@ -41,20 +71,19 @@
         //-webkit-transform: rotate(-2deg)
         //-o-transform: rotate(-2deg)
 
-    .intro .intro-body .intro-text 
-        font-size: 25px
+    .intro .intro-service .service-heading 
+        font-size: 30px
         //transform: rotate(-2deg)
         //-ms-transform: rotate(-2deg)
         //-moz-transform: rotate(-2deg)
         //-webkit-transform: rotate(-2deg)
         //-o-transform: rotate(-2deg)
 
-.intro-service
-    //position: absolute
-    //top: 90%
-    //display: table-cell
-    //vertical-align: bottom
+@media(max-width: 477px)
+    .intro .intro-service .intro-service-item .frame
+        height: 66px
 
-.intro-service-heading
-    font-size: 40px
-    
+
+@media(min-width:1307px) and (max-width: 1541px)
+    .intro .intro-service .intro-service-item .frame
+        height: 66px

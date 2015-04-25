@@ -1,0 +1,148 @@
+/*------------------------------ */
+/*  Navigation Section CSS      */
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #263238; }
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px; }
+
+.navbar-custom .navbar-brand:focus {
+  outline: 0; }
+
+.navbar-custom .navbar-brand .navbar-toggle {
+  padding: 4px 6px;
+  font-size: 16px;
+  color: #fff; }
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+  outline: 0; }
+
+.navbar-custom a {
+  color: #fff; }
+
+.navbar-custom .nav li.active {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out; }
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out; }
+
+  .top-nav-collapse {
+    padding: 0;
+    background-color: rgba(38, 50, 56, 0.95); } }
+/*------------------------------ */
+/*  Header Section CSS          */
+.intro {
+  /* OCL Removed    */
+  /* display: table */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background-color: #263238;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative; }
+
+.intro .intro-title {
+  height: 100px;
+  width: 50%;
+  /* background: #34495e */
+  position: absolute;
+  margin: -50px 0 0 -25%;
+  left: 50%;
+  top: 45%; }
+
+.intro .intro-title p {
+  display: none; }
+
+.intro .intro-service {
+  height: 100px;
+  width: 90%;
+  /* background: #e74c3c */
+  position: absolute;
+  margin: 0 0 0 -45%;
+  left: 50%;
+  bottom: 15%; }
+
+.intro .intro-service a {
+  color: black; }
+
+.intro .intro-service a:hover {
+  text-decoration: none;
+  color: #C4CCD5; }
+
+.intro .intro-title .brand-heading {
+  font-size: 30px; }
+
+.intro .intro-service .service-heading {
+  font-size: 15px; }
+
+@media(min-width:800px) {
+  .intro {
+    height: 100%;
+    padding: 0; }
+
+  .intro .intro-title p {
+    display: inline; }
+
+  .intro .intro-service {
+    bottom: 5%; }
+
+  .intro .intro-title .brand-heading {
+    font-size: 60px; }
+
+  .intro .intro-service .service-heading {
+    font-size: 30px; } }
+@media(max-width: 477px) {
+  .intro .intro-service .intro-service-item .frame {
+    height: 66px; } }
+@media(min-width:1307px) and (max-width: 1541px) {
+  .intro .intro-service .intro-service-item .frame {
+    height: 66px; } }
+/*------------------------------ */
+/*  Service Section CSS         */
+.col-service-odd {
+  background: #192024; }
+
+.col-service-even {
+  background: #37474F; }
+
+section[id="service"] div:nth-child(3n-1) {
+  background: #192024; }
+
+section[id="service"] div:nth-child(3n) {
+  background: #37474F; }
+
+/*------------------------------ */
+/*  Work Section CSS            */
+.section-work {
+  overflow-x: hidden; }

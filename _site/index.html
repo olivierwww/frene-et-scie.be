@@ -87,19 +87,19 @@
    <div class="row">
         <div class="col-md-8 col-md-offset-2 intro-service" >
         
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
+            <div id="intro-service1" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
                 <h2 class="frame"><a href="#service1" class="service-heading">Yourtes Kirghizes</a></h2>
             </div>
         
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
+            <div id="intro-service2" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
                 <h2 class="frame"><a href="#service2" class="service-heading">Cintrage Massif</a></h2>
             </div>
         
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
+            <div id="intro-service3" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
                 <h2 class="frame"><a href="#service3" class="service-heading">Éco-Menuiserie</a></h2>
             </div>
         
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
+            <div id="intro-service4" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
                 <h2 class="frame"><a href="#service4" class="service-heading">Espaces Extérieurs</a></h2>
             </div>
         
@@ -220,6 +220,18 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="assets/js/basicelement.js"></script>
+
+    <!-- Some JQuery Tests -->
+    <script>
+        $(document).ready(function(){
+            $('#intro-service1').on('mouseover',function(){
+                $('#intro').addClass('intro1');
+            }).on('mouseout', function() {
+                $('#intro').removeClass('intro1');
+                $('#intro').addClass('intro');
+            });
+        }); 
+    </script>
 
 </body>
 </html>

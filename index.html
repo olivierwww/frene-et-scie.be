@@ -69,5 +69,17 @@
     <!-- Custom Theme JavaScript -->
     <script src="assets/js/basicelement.js"></script>
 
+    <!-- Some JQuery Tests -->
+    <script>
+        $(document).ready(function(){
+            $('#intro-service1').on('mouseover',function(){
+                $('#intro').addClass('intro1');
+            }).on('mouseout', function() {
+                $('#intro').removeClass('intro1');
+                $('#intro').addClass('intro');
+            });
+        }); 
+    </script>
+
 </body>
 </html>

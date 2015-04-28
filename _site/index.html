@@ -1,237 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Frêne & Scie</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
-    <title>Frêne & Scie</title>
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="assets/css/base.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!-- Included Bootstrap CSS Files -->
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+	
+	<!-- Just include this Css file -->	
+	<link rel="stylesheet" href="./css/style.css" />
 
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body>
+	<!-- Carousel -->
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-id" data-slide-to="1"></li>
+			<li data-target="#carousel-id" data-slide-to="2"></li>
+			<li data-target="#carousel-id" data-slide-to="3"></li>
+			<li data-target="#carousel-id" data-slide-to="4"></li>
+      <li data-target="#carousel-id" data-slide-to="5"></li>
+			<li data-target="#carousel-id" data-slide-to="6"></li>
+			<li data-target="#carousel-id" data-slide-to="7"></li>
+			<li data-target="#carousel-id" data-slide-to="8"></li>
+			<li data-target="#carousel-id" data-slide-to="9"></li>
+      <li data-target="#carousel-id" data-slide-to="10"></li>
+			<li data-target="#carousel-id" data-slide-to="11"></li>
+			<li data-target="#carousel-id" data-slide-to="12"></li>
+			<li data-target="#carousel-id" data-slide-to="13"></li>
+			<li data-target="#carousel-id" data-slide-to="14"></li>
+      <li data-target="#carousel-id" data-slide-to="15"></li>
+			<li data-target="#carousel-id" data-slide-to="16"></li>
+			<li data-target="#carousel-id" data-slide-to="17"></li>
+			<li data-target="#carousel-id" data-slide-to="18"></li>
+			<li data-target="#carousel-id" data-slide-to="19"></li>
+      <li data-target="#carousel-id" data-slide-to="20"></li>
+			<li data-target="#carousel-id" data-slide-to="21"></li>
+		</ol>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header nav">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-lg fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="#intro">
-                <!-- <span class="light">Frêne</span> & Scie -->
-                Frêne & Scie
-            </a>
-        </div>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="./img/b&w/IMGP3540.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0085.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0088.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0089.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0105.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0111.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0121.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0124.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0130.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMG_0134.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP1139.jpg" alt="" />
+			</div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li> -->
-                
-                <li>
-                    <a class="page-scroll" href="#about">Qui nous sommes</a>
-                </li>
-                
-                <li>
-                    <a class="page-scroll" href="#service">Services</a>
-                </li>
-                
-                <li>
-                    <a class="page-scroll" href="#agenda">À la une</a>
-                </li>
-                
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+			<div class="item">
+				<img src="./img/b&w/IMGP3540.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP3875.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP3969.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP4044.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP4051.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP4055.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP4063.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP4163.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/IMGP4167.jpg" alt="" />
+			</div>
+			<div class="item">
+				<img src="./img/b&w/AL270d.jpg" alt="" />
+			</div>			
+			<div class="item">
+				<img src="./img/b&w/yourte-pointue.jpg" alt="" />
+			</div>
+		</div>
 
-    <!-- Intro / Header -->
-    <header id="intro" class="intro container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2 intro-title">
-            <h1 class="brand-heading frame">Frêne & Scie</h1>
-            <p class="nav"><a href="#about" class="btn btn-down page-scroll"><i class="fa fa-angle-double-down animated"></i></a></p>
-        </div>
-    </div>
-   <div class="row">
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-id" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#carousel-id" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+	<!-- This is a fixed overlay layer on top of the Carousel  -->
+	<div id="www" class="top-left black-frame">
+		<h4>www.frene-et-scie.be</h4>
+	</div>
+	<div id="mail" class="top-right black-frame">
+		<h4>contact@frene-et-scie.be</h4>
+	</div>
+	<!-- 	
+	<div id="title" class="overlay-title">
+		<h1>Hey There!</h1>
+	</div>
+	-->
+	<div id="logo" class="overlay-logo">
+	</div>
+
+		<!-- Services Section -->
+    <section id="service" class="container">
+   		<div class="row">
         <div class="col-md-8 col-md-offset-2 intro-service" >
-        
             <div id="intro-service1" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
-                <h2 class="frame"><a href="#service1" class="service-heading">Yourtes Kirghizes</a></h2>
+                <h1 class="white-frame">Yourtes Kirghizes</h1>
             </div>
-        
             <div id="intro-service2" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
-                <h2 class="frame"><a href="#service2" class="service-heading">Cintrage Massif</a></h2>
-            </div>
-        
+                <h1 class="white-frame">Cintrage Massif</h1>
+            </div>        
             <div id="intro-service3" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
-                <h2 class="frame"><a href="#service3" class="service-heading">Éco-Menuiserie</a></h2>
-            </div>
-        
+                <h1 class="white-frame">Éco-Menuiserie</h1>
+            </div>       
             <div id="intro-service4" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 intro-service-item">
-                <h2 class="frame"><a href="#service4" class="service-heading">Espaces Extérieurs</a></h2>
-            </div>
-        
+                <h1 class="white-frame">Espaces Extérieurs</h1>
+            </div>       
         </div>
-    </div>
-</header>
+    	</div>
+		</section>
 
-    <!-- About Section -->
-    <section id="about" class="container-fluid content-section">
-    <!-- 3 Section -->
-    <section class="container-fluid content-section about text-center">
-        <div class="col-lg-7 col-lg-offset-2">
-            <h2>A propos</h2>
-            <p>A finalité sociale, Frêne & Scie est une société d’éco-menuiserie 
-                spécialisée  dans  la  confection  de <a href="#service">yourtes</a> et <a href="#service">l’aménagement 
-                d’espace extérieur</a>. Par son travail de création, inspiré du savoir faire 
-                ancestral <a href="#service">kirghize</a>, Frêne & Scie propose des structures 
-                variées en forme courbe, du pavillon d’été à l’habitat permanent.
-                Par la technique du <a href="#service">cintrage à la vapeur</a>, le bois d’essence locale 
-                est assoupli en vue de lui donner les formes désirées et d’assurer 
-                un rendu plus organique. Le feutre de laine du pays, utilisé comme 
-                couverture  extérieure,  assure  une  intégration  harmonieuse  de 
-                la  yourte  à  son  environnement.  Yourtes  en  clé  sur  porte  ou  en 
-                accompagnement à l’auto-construction, Frêne & Scie invite à et 
-                milite pour un renouvellement de l’Art d’habiter.
-            </p>
-        </div>
-    </section>
-</section>
+	<script src="./js/jquery-1.10.0.min.js"></script>
+	<script src="./js/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Service Section -->
-    <section id="service" class="container-fluid content-section">
-    <!--div class="col-md-6 col-lg-3 col-gray2" style="background:#192024;"-->
-    <!--div class="col-md-6 col-lg-3 col-gray2" style="background:#37474F;"-->
-    
-    <!-- <div id="service1" class="col-md-6 col-lg-3 service-item col-service-even"> -->
-    <div id="service1" class="col-md-6 col-lg-3 service-item">
-        <h3><i class="fa fa-2x" style="position:absolute; top:25px; right:20px;"></i>Yourtes Kirghizes</h3>
-        <p>Lorem ipsum dolor sit amet, et assum efficiantur his, tota postea moderatius ei eos. Eam quis percipitur sadipscing cu. Sale liberavisse ius te, laudem disputando has no. Eos platonem assentior ut, ea iudicabit gubergren evertitur ius, eum nobis definitionem ea. Vix eu quot quaerendum efficiantur.</p>
-    </div>
-    
-    <!-- <div id="service2" class="col-md-6 col-lg-3 service-item col-service-odd"> -->
-    <div id="service2" class="col-md-6 col-lg-3 service-item">
-        <h3><i class="fa fa-2x" style="position:absolute; top:25px; right:20px;"></i>Cintrage Massif</h3>
-        <p>Et inermis copiosae cum. Illum delectus voluptaria his ne. Habeo saepe tantas sed no. Ei duo solum pertinax. Ludus aliquid honestatis et pri. Est habeo singulis hendrerit cu, graeco scriptorem theophrastus est ne. Mea audire interpretaris an.</p>
-    </div>
-    
-    <!-- <div id="service3" class="col-md-6 col-lg-3 service-item col-service-even"> -->
-    <div id="service3" class="col-md-6 col-lg-3 service-item">
-        <h3><i class="fa fa-2x" style="position:absolute; top:25px; right:20px;"></i>Éco-Menuiserie</h3>
-        <p>Odio denique conclusionemque eum et. Pro quodsi expetendis adipiscing ad, vim posse nominati id. Et laboramus assentior quo. Idque dicant verear pri te, vim ad simul dolores, iusto constituto per eu.</p>
-    </div>
-    
-    <!-- <div id="service4" class="col-md-6 col-lg-3 service-item col-service-odd"> -->
-    <div id="service4" class="col-md-6 col-lg-3 service-item">
-        <h3><i class="fa fa-2x" style="position:absolute; top:25px; right:20px;"></i>Espaces Extérieurs</h3>
-        <p>Mei menandri definiebas ad, aeque omnes posidonium ut ius, ut modo justo intellegebat mel. Hinc lucilius detraxit eos at. Hinc inimicus volutpat at his. Ius ornatus convenire honestatis at, ei wisi ceteros pro. Timeam aliquam mea no, ad autem semper vis. An invenire voluptaria eam.</p>
-    </div>
-    
-</section>
-
-    <!-- Agenda Section -->
-    <section id="agenda" class="content-section text-center">
-    <div class="overlay">
-        <div class="agenda-section">
-
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Frêne & Scie prend part au festival Passion Robinson® ...</h2>
-                    <p>Festival international des cabanes, roulottes et de l'habitat premier</p>
-                    <p>CULTIVER L'ESPRIT "CABANE"...
-                        qu'elle soit de bois, perchée, de feuilles, mobile, de toile ou de verre...</p>
-                    <p>Bloquez les dates du 1er au 3 mai 2015.</p>
-                    <a href="http://www.passionrobinson.be/"  target="_blank" class="btn btn-default btn-lg">Visitez le site de Passion Robinson</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>Contactez nous!</h2>
-            <p>Pour une collaboration, un retour d'expérience, des suggestions ... ou juste pour nous dire bonjour!</p>
-            <p>contact@frene-et-scie.be</p>
-            <ul class="list-inline banner-social-buttons">
-                <li>
-                    <a href="mailto:contact@frene-et-scie.be" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">MAIL</span></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/frene-et-scie" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                </li>
-            </ul>
-        </div>
-</section>
-
-    <!-- Footer -->
-    <footer>
-    <div class="container text-center">
-        <p>Copyright© Frêne & Scie 2015<br>
-            Code Design <!--i class="fa fa-heart"></i--> <a href="mailto:olivier.cleyman@gmail.com">Olivier Cleyman</a></p>
-    </div>
-</footer>
-
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.3.1-min.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/SmoothScroll.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="assets/js/basicelement.js"></script>
-
-    <!-- Some JQuery Tests -->
-    <script>
-        $(document).ready(function(){
-            $('#intro-service1').on('mouseover',function(){
-                $('#intro').addClass('intro1');
-            }).on('mouseout', function() {
-                $('#intro').removeClass('intro1');
-                $('#intro').addClass('intro');
-            });
-        }); 
-    </script>
-
+	<!-- Just include this Js file -->
+	<script src="./js/jquery.carousel.fullscreen.js"></script>
 </body>
 </html>

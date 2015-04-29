@@ -14,6 +14,14 @@
 	}
 }
 
+#carouselButtons {
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin: 0 0 0 -30px;
+    text-align: center;
+}
 
 .top-left {
   color: white;
@@ -60,17 +68,15 @@
   top: 50%;
 }
 
-
-
-
 .intro-service {
   height: 100px;
-  width: 96%;
-  /* background: #e74c3c */
+  width: 90%;
+  /* background: #e74c3c; */
   position: absolute;
   margin: 0 0 0 -45%;
   left: 50%;
-  bottom: 13%; }
+  bottom: 13%;
+}
 
 .intro-service a {
   color: black; }
@@ -104,5 +110,4 @@ h1, h2, h3, h4, h5 {
    text-align: center;
    vertical-align: center;
 }
-
 

@@ -1,0 +1,113 @@
+@font-face{ 
+  font-family: Miso;
+  src: url('miso-regular-webfont.eot');
+  src: url('miso-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('miso-regular-webfont.woff') format('woff'),
+       url('miso-regular-webfont.ttf') format('truetype'),
+       url('miso-regular-webfont.svg#webfont') format('svg');
+}
+
+@media (max-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+#carouselButtons {
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin: 0 0 0 -30px;
+    text-align: center;
+}
+
+.top-left {
+  color: white;
+  position:absolute;
+  text-transform: uppercase;
+  z-index: 666;
+  margin: 0;
+  left: 2%;
+  top: 2%;
+}
+
+.top-right {
+  color: white;
+  position:absolute;
+  text-transform: uppercase;
+  z-index: 666;
+  margin: 0;
+  right: 2%;
+  top: 2%;
+}
+
+
+.overlay-title{
+	color: black;
+  position:absolute;
+	text-transform: uppercase;
+	z-index: 666;
+  top:30%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+.overlay-logo{
+  height: 307px;
+  width: 356px;
+  
+  /*background: pink;*/
+  background: url(../img/logo.png) no-repeat;
+
+  position: absolute;
+  margin: -178px 0 0 -178px;
+  left: 50%;
+  top: 50%;
+}
+
+.intro-service {
+  height: 100px;
+  width: 90%;
+  /* background: #e74c3c; */
+  position: absolute;
+  margin: 0 0 0 -45%;
+  left: 50%;
+  bottom: 13%;
+}
+
+.intro-service a {
+  color: black; }
+
+.intro-service a:hover {
+  text-decoration: none;
+  color: #C4CCD5; }
+
+.service-heading {
+  font-size: 25px;
+  /*font-weight: 1400;*/
+}
+
+.white-frame{
+    background-color: rgba(255,255,255,.3);
+    border-radius: 5px;
+}
+
+.black-frame{
+    background-color: rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+h1{
+  font-size: 45px;
+}
+
+h1, h2, h3, h4, h5 {
+   font-family: Miso;
+   text-align: center;
+   vertical-align: center;
+}
+
